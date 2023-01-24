@@ -1,0 +1,75 @@
+
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  background-color: transparent;
+  place-content: center;
+
+}
+
+.quotes-card{
+  width: 50vw;
+  min-height: 25vh;
+  background-color: rgb(252, 246, 255);
+  padding: 0.5rem;
+  display: flex;
+}
+
+.quotes-quote{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.OnClick{
+  width: 100%;
+  min-height: 20%;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.OnClick button{
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  color: #fff;
+  border-radius: 50%;
+  border:none;
+}
+
+button::before{
+  border: none;
+}
+
+.quote-icon{
+  width: calc(20% - 1rem);
+  height: 80%;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.quote-text{
+  width: 80%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.phrase{
+  width: 100%;
+  min-height: 70%;
+}
+
+.author{
+  width: 100%;
+  min-height: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
